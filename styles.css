@@ -117,3 +117,20 @@ a{
     background-color: #DC3644;
     color: rgb(255, 255, 255);
 }
+.card-title {
+    font-weight: 600;
+}
+
+/* section tree */
+.section_tree{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.section_tree img{
+    width: 100%;
+}
+.section_tree-right{
+    background-color: #353A40;
+    color: white;
+    padding-left: 22px;
+}
