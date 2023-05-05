@@ -3,6 +3,10 @@ html{
     padding: 0;
     margin: 0;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 .header_container {
     background-color: #353A40;
 }
@@ -30,4 +34,86 @@ html{
 }
 .color-action {
     color: #2B9242;
+}
+
+/* section two */
+.section_one-container {
+    background-image: url(./assets/img/ba1.jpg);
+    width: 100vw;
+    height: 780px;
+    margin-top: -25px;
+    /* filter: grayscale(10%); */
+    /* opacity: 0.5; */
+    background-size: cover;
+    background-position: 25% 75%;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 8px;
+}
+.section_one-container_text {
+    background-color: rgba(0, 0, 0, 0.44);
+    position: absolute;
+    height: 780px;
+    padding-left: 50%;
+    padding-right: 8%;
+    text-align: right;
+    color: white;
+    display: grid;
+    align-content: flex-end;
+    padding-bottom: 230px;
+}
+.btn-trasparent {
+    border: solid 1px white;
+    color: white;
+}
+.btn-trasparent:hover {
+    background-color: rgba(97, 97, 97, 0.743);
+    color: white;
+}
+.btn-success {
+    background-color: #27A844;
+}
+
+/* section two */
+.section_two {
+    margin-bottom: 50px;
+}
+.section_two-title {
+    text-align: center;
+}
+.section_two-title span {
+    font-size: 10px;
+}
+.section_two-title p {
+    font-size: 24px;
+    font-weight: 600;
+}
+.section_two-container_card {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+/* card */
+.pill_type {
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 2px 4px;
+    font-weight: bold;
+    text-align: center;
+}
+.btn-js {
+    background-color: #FEC107;
+    color: black;
+}
+.btn-react {
+    background-color: #17A2B7;
+    color: rgb(255, 255, 255);
+}
+.btn-business {
+    background-color: #6D767F;
+    color: rgb(255, 255, 255);
+}
+.btn-startups {
+    background-color: #DC3644;
+    color: rgb(255, 255, 255);
 }
