@@ -1,0 +1,33 @@
+html{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.header_container {
+    background-color: #353A40;
+}
+.logo_s {
+    width: 110px;
+    height: auto;
+}
+.header_nav-title{
+    color: white;
+}
+/* --- */
+.nav {
+    align-content: center;
+}
+.nav-link {
+    color: #9A9796;
+    font-size: 14px;
+    font-weight: bold;
+}
+.nav-link:hover {
+    color: #f4f1f0;
+}
+.nav-link.active {
+    color: #ffffff;
+}
+.color-action {
+    color: #2B9242;
+}
