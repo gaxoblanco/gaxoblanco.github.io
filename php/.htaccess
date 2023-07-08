@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteBase /c2361340_sv
+
+# Permitir acceso directo a archivos específicos
+RewriteRule ^(guardar_orador\.php)$ - [L]
+
+# Redirigir todas las solicitudes a index.php, excepto los archivos existentes
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [L]
