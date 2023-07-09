@@ -50,7 +50,7 @@ a{
 
 /* section two */
 .section_one-container {
-    background-image: url(./assets/img/ba1.jpg);
+    background-image: url(../assets/img/ba1.jpg);
     height: 780px;
     margin-top: -25px;
     /* filter: grayscale(10%); */

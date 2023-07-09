@@ -1,0 +1,22 @@
+.post_container {
+    display: flex;
+    place-content: center;
+    margin-top: 60px;
+}
+.card_sussces{
+    width: 26rem;
+    border: 1px solid #1e465f;
+}
+.btn-info {
+    color: white;
+    background-color: #1e465f;
+}
+
+/* footer */
+.footer_bg {
+    background-color: #1E465F;
+    color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
